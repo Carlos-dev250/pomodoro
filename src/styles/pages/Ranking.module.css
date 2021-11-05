@@ -1,0 +1,52 @@
+.conteiner {
+    font-size: 1.2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f3f5;
+}
+
+.content {
+    position: absolute;
+    right: 15%;
+    height: 100vh;
+    width: 65%;
+}
+
+.conteiner .content h3 {
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.content table {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0 6px;
+}
+
+.content table thead th {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.content table tbody td {
+    padding: 0.2rem;
+    background: var(--white);
+    vertical-align: center;
+}
+
+.content table tbody td:first-child {
+    width: 60px;
+    padding: 1.2rem;
+    text-align: center;
+    border-right: 5px solid #f2f3f5;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.numero {
+    color: var(--blue);
+    margin-right: 0.3rem;
+}
